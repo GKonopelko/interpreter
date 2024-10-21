@@ -7,7 +7,7 @@
 document.body.firstElementChild.insertAdjacentHTML("beforeend", `             <footer class="footer block">
 <div class="footer__container _container"> 
   <div class="order"> 
-    <p>Для оценки стоимости и сроков письменного перевода вышлите файл/скан/фото по электронной почте &nbsp; <a href="mailto:grigori@konopelko.com" class="mail linkUderlined"> grigori@konopelko.com</a> &nbsp;  или &nbsp;
+    <p>Для оценки стоимости и сроков письменного перевода вышлите файл/скан/фото по электронной почте &nbsp; <a href="mailto:grigori.konopelko@mail.ru" class="mail linkUderlined"> grigori.konopelko@mail.ru</a> &nbsp;  или &nbsp;
     <a href="tg://resolve?domain=https://t.me/GrigoriKonopelko" class="linkUderlined">Telegram</a> &nbsp;
     <a href="whatsapp://send?phone=+79117770297" class="linkUderlined">WhatsApp</a>.
     </p>
