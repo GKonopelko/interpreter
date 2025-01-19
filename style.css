@@ -51,10 +51,10 @@ img {
 /* ********* */
 
 :root {
-  --fblue: #002F6C;
-  --rred: rgb(213, 43, 30);
-  --rblue:#00459E;
-  --white: rgba(255, 255, 255, 1);
+  --text-сolor: #002F6C;
+  --text-acсent: rgb(213, 43, 30);
+  --darker-background:#00459E;
+  --light-background: rgba(255, 255, 255, 1);
 }
 
 html {
@@ -64,8 +64,8 @@ html {
   line-height: 1.5;
   text-align: center;
   /* overflow-x: hidden; */
-  background-color: var(--white);
-  color: var(--fblue);
+  background-color: var(--light-background);
+  color: var(--text-сolor);
   @media screen and (min-width: 60rem) {
     /* line-height: 1.6; */
     /* font-size: calc(16px + (1vw - 10px));
@@ -125,21 +125,21 @@ h6 {
 /* links */
 a,
 a:visited {
-  color: var(--fblue);
+  color: var(--text-сolor);
   text-decoration: none;
 }
 
 .header a,
 .header a:visited,
 .menu a {
-  color: var(--white);
+  color: var(--light-background);
 }
 
 .footer a,
 .footer a:visited {
-  color: var(--rblue);
+  color: var(--darker-background);
   @media screen and (min-width: 42rem) {
-    color: var(--white);
+    color: var(--light-background);
   }
 }
 
@@ -158,7 +158,7 @@ a:hover,
   left:0;
   top: 0;
   z-index: 10;
-  background-color: var(--rblue);
+  background-color: var(--darker-background);
 }
 
 .header__container {
@@ -188,7 +188,7 @@ a:hover,
 
 .language .nonactive {
   text-align: center;
-  border: solid var(--rblue) 1px;
+  border: solid var(--darker-background) 1px;
   border-radius: 0.2rem;
   line-height: 1.5rem;
   padding: 0 0.4rem;
@@ -200,7 +200,7 @@ a:hover,
 
 .language .active {
   text-align: center;
-  border: solid var(--white) 1px;
+  border: solid var(--light-background) 1px;
   border-radius: 0.2rem;
   line-height: 1.5rem;
   padding: 0 0.4rem;
@@ -211,7 +211,7 @@ a:hover,
 
 .language .nonactive:hover {
   text-align: center;
-  border: solid var(--white) 1px;
+  border: solid var(--light-background) 1px;
   border-radius: 0.2rem;
   line-height: 1.5rem;
   padding: 0 0.4rem;
@@ -252,7 +252,7 @@ a:hover,
   font-size: 0.8rem;
   line-height: 0rem;
   font-style: italic;
-  /* color: var(--fblue); */
+  /* color: var(--text-сolor); */
   }
 
 
@@ -312,13 +312,13 @@ a:hover,
   transition: all 0.4s ease;
   width: 100%;
   height: 3rem;
-  /* color: var(--white); */
-  background-color: var(--rblue);
+  /* color: var(--light-background); */
+  background-color: var(--darker-background);
   opacity: 1;
   @media screen and (min-width: 42rem) {
     order: 0;
     position: initial;
-    background-color:var(--white);
+    background-color:var(--light-background);
     height: 2.5rem;
    }
 }
@@ -335,7 +335,7 @@ a:hover,
   height: 2.5rem;
   width: 100%;
   border-bottom: solid 1px;
-  border-color: var(--rblue);
+  border-color: var(--darker-background);
 }
 
 .menu__container {
@@ -377,7 +377,7 @@ a:hover,
 
 .menu__input:checked ~ .menu__label .menu__label-line::after,
 .menu__input:checked ~ .menu__label .menu__label-line::before {
-  background-color: var(--rred);
+  background-color: var(--text-acсent);
   height: 0.25rem;
 }
 
@@ -402,7 +402,7 @@ a:hover,
 }
 
 .menu__label-line {
-  background: var(--white);
+  background: var(--light-background);
   display: block;
   height: 0.15rem;
   position: relative;
@@ -413,7 +413,7 @@ a:hover,
 
 .menu__label-line::before,
 .menu__label-line::after {
-  background: var(--white);
+  background: var(--light-background);
   content: "";
   display: block;
   height: 100%;
@@ -439,7 +439,7 @@ a:hover,
     position: fixed;
     left:0;
     bottom: -100rem;
-    background-color: var(--white);
+    background-color: var(--light-background);
     @media screen and (min-width: 42rem) {
       flex-direction: row;
       justify-content: center;
@@ -475,8 +475,8 @@ input {
 }
 
 .menu__item a {
-  background-color: var(--white);
-  color: var(--rblue);
+  background-color: var(--light-background);
+  color: var(--darker-background);
   font-size: 1.3rem;
   text-transform: uppercase;
   font-weight: 500;
@@ -523,7 +523,7 @@ input {
 .text p::first-letter {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 110%;
-  color: var(--rred);
+  color: var(--text-acсent);
   font-weight: bold;
 }
 
@@ -541,13 +541,13 @@ input {
   width:100%;
   left:0;
   font-size: 0.8rem;
-  background-color: var(--white);
-  color: var(--rblue);
+  background-color: var(--light-background);
+  color: var(--darker-background);
   text-align: left;
   @media screen and (min-width: 42rem) {
     margin-bottom: 0;
-    background-color: var(--rblue);
-  color: var(--white);
+    background-color: var(--darker-background);
+  color: var(--light-background);
   }
 }
 
@@ -556,14 +556,14 @@ input {
 }
 
 .footer a {
-  color: var(--rblue);
+  color: var(--darker-background);
   @media screen and (min-width: 42rem) {
-  color: var(--white);
+  color: var(--light-background);
   }
 }
 
 .order {
-  border-top: 1px solid var(--rblue);
+  border-top: 1px solid var(--darker-background);
   text-align: center;
   letter-spacing: 0.2px;
 }
