@@ -493,11 +493,12 @@ input {
 
 /* Main  */
 
-.langlist p {
-  margin: 0.5rem 0 0.5rem 0; /* Отступы между абзацами */
-  font-size: 1.1rem; /* Размер текста */
-  line-height: 1.5; /* Межстрочный интервал */
+.langlist,
+.promo-bottom {
+  padding: 0.5rem 0 0.5rem 0;
 }
+
+
 
 .main__container {
   padding: 0.5rem 0.5rem 0 0.5rem;
