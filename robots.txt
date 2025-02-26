@@ -1,1 +1,3 @@
+User-agent: *
+Allow: /
 Sitemap: https://www.konopelko.com/sitemap.txt

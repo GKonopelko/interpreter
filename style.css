@@ -252,7 +252,6 @@ a:hover,
   font-size: 0.8rem;
   line-height: 0rem;
   font-style: italic;
-  /* color: var(--text-сolor); */
   }
 
 
@@ -493,6 +492,13 @@ input {
 /* Menu  */
 
 /* Main  */
+
+.langlist p {
+  margin: 0.5rem 0 0.5rem 0; /* Отступы между абзацами */
+  font-size: 1.1rem; /* Размер текста */
+  line-height: 1.5; /* Межстрочный интервал */
+}
+
 .main__container {
   padding: 0.5rem 0.5rem 0 0.5rem;
   @media screen and (min-width: 42rem) {
@@ -682,4 +688,16 @@ table, td, th {
 }
 .linkUderlined:hover {
   text-decoration: underline;
+}
+
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
