@@ -1,5 +1,5 @@
 export const ruHeader = `
-<header class="header block">
+    <header class="header block">
       <div class="header__container _container">
         <div class="language">
           <a href="index-fi.html" class="fi nonactive" aria-label="Переключиться на финскую версию сайта">FI</a>
@@ -111,7 +111,7 @@ export const ruHeader = `
 `
 
 export const ruFooter = `
-    <footer class="footer block">
+     <footer class="footer block">
       <div class="footer__container _container">
         <div class="order">
           <p>Для оценки стоимости и сроков письменного перевода вышлите файл/скан/фото по электронной почте &nbsp; <a
@@ -169,7 +169,7 @@ export const ruFooter = `
           </li>
         </ul>
         <br>
-        <p> © Григорий Конопелько, 2024</p>
+        <p> © Григорий Конопелько, 2025</p>
 
       </div>
     </footer>
