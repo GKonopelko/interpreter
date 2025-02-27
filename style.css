@@ -593,6 +593,10 @@ table {
   text-align: left;
 }
 
+details[open] {
+  padding-bottom: 1rem;
+}
+
 .explanation {
   padding: 0.5rem;
   padding-bottom: 1rem;
