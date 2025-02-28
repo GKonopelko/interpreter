@@ -530,6 +530,10 @@ ul {
   list-style-position: inside; /* Маркер будет внутри элемента <li> */
 }
 
+.text ul li {
+  text-align: left;
+}
+
 
 .explanation p::first-letter,
 .text p::first-letter {

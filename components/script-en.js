@@ -85,7 +85,7 @@ const enHeader = `
 `
 
 const enFooter = `
-      <footer class="footer block">
+          <footer class="footer block">
         <div class="footer__container _container">
           <div class="order">
             <p>
@@ -98,7 +98,7 @@ const enFooter = `
           <br>
           <ul class="footer__menu">
             <li class="footer__item home">
-              <a href="index-en.html" class="menu__link">&#10144; Finnish-Russian Translation Agency Grigori Konopelko</a>
+              <a href="index-en.html" class="menu__link">&#10144; Russian Translation Agency</a>
             </li>
             <li class="footer__item interpreting">
               <a href="interpreting-en.html" class="menu__link">&#10144; Finnish-Russian Interpreting</a>
@@ -114,7 +114,7 @@ const enFooter = `
             </li>
           </ul>
           <br>
-          <p>© Finnish-Russian Translation Agency Grigori Konopelko, 2024</p>
+          <p>© Grigori Konopelko, 2025</p>
         </div>
       </footer>
 `
