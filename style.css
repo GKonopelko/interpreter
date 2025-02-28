@@ -526,6 +526,10 @@ input {
   text-indent: 1.5rem;
 }
 
+ul {
+  list-style-position: inside; /* Маркер будет внутри элемента <li> */
+}
+
 
 .explanation p::first-letter,
 .text p::first-letter {
