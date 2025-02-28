@@ -1,78 +1,4 @@
-<!DOCTYPE html>
-<html lang="fi">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- META TIEDOT SEO:LLE -->
-  <meta name="description"
-    content="Laadukkaat venäjän käännökset ja tulkkaukset suoraan ammattikääntäjältä. Nopeat ja edulliset palvelut Pietarissa. Ota yhteyttä: +7911770297 tai grigori.konopelko@mail.ru.">
-  <meta name="keywords"
-    content="venäjän kielen tulkki, venäjän ammattikääntäjä, tulkki Pietarissa, suomi-venäjä käännökset, viralliset käännökset, venäjä-englanti käännökset, käännöspalvelut, tulkkauspalvelut">
-
-  <!-- OPEN GRAPH META TIEDOT -->
-  <meta property="og:title" content="Venäjän käännöstoimisto Grigori Konopelko">
-  <meta property="og:description"
-    content="Laadukkaat venäjän käännökset ja tulkkaukset suoraan ammattikääntäjältä. Nopeat ja edulliset palvelut Pietarissa.">
-  <meta property="og:image" content="https://konopelko.com/src/images/parrotsvg.svg">
-  <meta property="og:url" content="https://konopelko.com/index-fi.html">
-  <meta property="og:type" content="website">
-
-  <!-- TWITTER META TIEDOT -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Venäjän käännöstoimisto Grigori Konopelko">
-  <meta name="twitter:description"
-    content="Laadukkaat venäjän käännökset ja tulkkaukset suoraan ammattikääntäjältä. Nopeat ja edulliset palvelut Pietarissa.">
-  <meta name="twitter:image" content="https://konopelko.com/src/images/parrotsvg.svg">
-
-  <!-- CANONICAL LINK -->
-  <link rel="canonical" href="https://konopelko.com/index-fi.html">
-
-  <!-- KIELIVAIHTOEHDOt -->
-  <link rel="alternate" hreflang="fi" href="https://konopelko.com/index-fi.html">
-  <link rel="alternate" hreflang="ru" href="https://konopelko.com/index.html">
-  <link rel="alternate" hreflang="en" href="https://konopelko.com/index-en.html">
-
-  <!-- OTSIKKO -->
-  <title>Venäjän käännöstoimisto Grigori Konopelko | Ammattimaiset käännökset ja tulkkaukset</title>
-
-  <!-- FAVICON -->
-  <link rel="icon" href="src/images/parrotsvg.svg" type="image/svg+xml">
-
-  <!-- TYylit -->
-  <link href="style.css" rel="stylesheet">
-
-  <!-- GOOGLE ANALYTICS -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VRQ5Y6QT51"></script>
-  <script src="components/google-analytics.js" async></script>
-
-  <!-- SCHEMA.ORG MIKROMERKINNÄT -->
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "ProfessionalService",
-      "name": "Venäjän käännöstoimisto Grigori Konopelko",
-      "description": "Laadukkaat venäjän käännökset ja tulkkaukset suoraan ammattikääntäjältä.",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Pietari",
-        "addressCountry": "Venäjä"
-      },
-      "telephone": "+79117770297",
-      "email": "grigori.konopelko@mail.ru",
-      "url": "https://konopelko.com/index-fi.html",
-      "sameAs": [
-        "https://t.me/GrigoriKonopelko",
-        "https://wa.me/79117770297"
-      ]
-    }
-  </script>
-</head>
-
-<body class="body">
-  <div class="wrapper">
+const fiHeader = `
     <header class="header block" aria-label="Sivuston ylätunniste">
       <div class="header__container _container">
         <div class="language" aria-label="Kielivalinta">
@@ -178,41 +104,9 @@
         </div>
       </div>
     </nav>
-    <main class="main block" aria-label="Pääsisältö">
-      <div class="main__container _container">
-        <section class="promo" aria-label="Esittely">
-          <h1>Laadukkaat kielipalvelut suoraan ammattikääntäjältä</h1>
-          <h4 class="langlist">
-            venäjä - suomi - venäjä<br>
-            venäjä - englanti - venäjä<br>
-          </h4>
-        </section>
-        <article class="main__article" aria-label="Tietoa palveluista">
-          <h2>Nopeat ja edulliset venäjän kielen käännökset ja tulkkaukset ilman välikäsiä</h2>
-          <div class="text">
-            <p>
-              Tarjoamme laadukkaita käännöksiä ja tulkkauksia yli 15 vuoden kokemuksella Suomessa ja Venäjällä.
-              Palvelemme
-              yksityishenkilöitä, yrityksiä sekä julkishallinnon organisaatioita. Erikoistumme rajoitettuun
-              kielivalikoimaan
-              ja käytämme moderneja käännösteknologioita, kuten SDL TRADOS, takaamaan parhaan hinta-laatusuhteen.
-            </p>
-            <p>
-              Teemme yhteistyötä muiden ammattikääntäjien ja käännöstoimistojen kanssa. Käytössämme on laaja verkosto
-              suomen, englannin ja venäjän kielten tulkkeja ja kääntäjiä.
-            </p>
-            <p>
-              Palveluihimme kuuluvat yleiskielen ja erikoisalojen käännökset, viralliset asiakirjakäännökset sekä
-              konsekutiivi- ja simultaanitulkkaukset.
-            </p>
-            <p>
-              Asiakastyytyväisyys on tavoitteemme. Tarjoamme joustavia ratkaisuja ja laadukkaita palveluita ilman
-              kompromisseja.
-            </p>
-          </div>
-        </article>
-      </div>
-    </main>
+`
+
+const fiFooter = `
     <footer class="footer block" aria-label="Alatunniste">
       <div class="footer__container _container">
         <div class="order">
@@ -258,7 +152,11 @@
         <p>© Käännöstoimisto Grigori Konopelko, 2025</p>
       </div>
     </footer>
-  </div>
-</body>
+`
 
-</html>
+
+const bodyWrapper = document.querySelector('.wrapper');
+
+bodyWrapper.insertAdjacentHTML("beforeend", fiFooter);
+
+bodyWrapper.insertAdjacentHTML("afterbegin", fiHeader);
