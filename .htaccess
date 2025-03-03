@@ -1,1 +1,6 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^konopelko\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.konopelko\.com$
+RewriteRule ^index\.php/en/?$ https://konopelko.com/ [R=301,L]
+
 ErrorDocument 404 http://www.konopelko.com
