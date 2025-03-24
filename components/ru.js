@@ -9,7 +9,7 @@ export const ruHeader = `
         <div class="logo">
           <a class="parrot" href="index.html" aria-label="Перейти на главную страницу сайта">
             <div class="img">
-              <img src="src/images/parrotsvg.svg" alt="Translator Grigori Konopelko logo">
+              <img src="src/images/parrotsvg.svg" alt="Translator Grigori Konopelko logo" loading="lazy">
             </div>
           </a>
           <div class="logo__title">
@@ -108,7 +108,7 @@ export const ruHeader = `
       </div>
 
     </nav>
-`
+`;
 
 export const ruFooter = `
      <footer class="footer block">
@@ -173,4 +173,4 @@ export const ruFooter = `
 
       </div>
     </footer>
-`
+`;

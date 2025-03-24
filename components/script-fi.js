@@ -9,7 +9,7 @@ const fiHeader = `
         <div class="logo">
           <a class="parrot" href="#" aria-label="Siirry etusivulle">
             <div class="img">
-              <img src="src/images/parrotsvg.svg" alt="Venäjän käännöstoimisto Grigori Konopelko logo">
+              <img src="src/images/parrotsvg.svg" alt="Venäjän käännöstoimisto Grigori Konopelko logo" loading="lazy">
             </div>
           </a>
           <div class="logo__title">
@@ -104,7 +104,7 @@ const fiHeader = `
         </div>
       </div>
     </nav>
-`
+`;
 
 const fiFooter = `
     <footer class="footer block" aria-label="Alatunniste">
@@ -152,11 +152,10 @@ const fiFooter = `
         <p>© Käännöstoimisto Grigori Konopelko, 2025</p>
       </div>
     </footer>
-`
-
+`;
 
 const bodyWrapper = document.querySelector('.wrapper');
 
-bodyWrapper.insertAdjacentHTML("beforeend", fiFooter);
+bodyWrapper.insertAdjacentHTML('beforeend', fiFooter);
 
-bodyWrapper.insertAdjacentHTML("afterbegin", fiHeader);
+bodyWrapper.insertAdjacentHTML('afterbegin', fiHeader);

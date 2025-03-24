@@ -9,7 +9,7 @@ const enHeader = `
           <div class="logo">
             <a class="parrot" href="https://konopelko.com/index-en.html">
               <div class="img">
-                <img src="src/images/parrotsvg.svg" alt="logo">
+                <img src="src/images/parrotsvg.svg" alt="logo" loading="lazy">
               </div>
             </a>
             <div class="logo__title">
@@ -82,7 +82,7 @@ const enHeader = `
           </div>
         </div>
       </nav>
-`
+`;
 
 const enFooter = `
           <footer class="footer block">
@@ -117,11 +117,10 @@ const enFooter = `
           <p>© Grigori Konopelko, 2025</p>
         </div>
       </footer>
-`
-
+`;
 
 const bodyWrapper = document.querySelector('.wrapper');
 
-bodyWrapper.insertAdjacentHTML("beforeend", enFooter);
+bodyWrapper.insertAdjacentHTML('beforeend', enFooter);
 
-bodyWrapper.insertAdjacentHTML("afterbegin", enHeader);
+bodyWrapper.insertAdjacentHTML('afterbegin', enHeader);
