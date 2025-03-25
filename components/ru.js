@@ -1,5 +1,5 @@
 export const ruHeader = `
-    <header class="header block">
+        <header class="header block">
       <div class="header__container _container">
         <div class="language">
           <a href="index-fi.html" class="fi nonactive" aria-label="Переключиться на финскую версию сайта">FI</a>
@@ -21,7 +21,7 @@ export const ruHeader = `
         <div class="header__contacts">
           <div class="header__phone">
             <a href="tel:+79117770297" class="phone"
-              aria-label="Позвонить переводчику финского языка">+7&nbsp;911&nbsp;777&nbsp;02&nbsp;97 </a>
+              aria-label="Позвонить переводчику финского языка">+7&nbsp;911&nbsp;777&nbsp;02&nbsp;97</a>
           </div>
           <div class="header__mail">
             <a href="mailto:grigori.konopelko@mail.ru" class="mail"
@@ -111,7 +111,7 @@ export const ruHeader = `
 `;
 
 export const ruFooter = `
-     <footer class="footer block">
+         <footer class="footer block">
       <div class="footer__container _container">
         <div class="order">
           <p>Для оценки стоимости и сроков письменного перевода вышлите файл/скан/фото по электронной почте &nbsp; <a
